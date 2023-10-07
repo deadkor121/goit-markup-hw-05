@@ -799,7 +799,7 @@ fill: #FFFFFF;
 }
 
 .modal-checkbox-box {
-    display: inline-flex;
+    display:inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -828,7 +828,6 @@ fill: #FFFFFF;
 }
 
 .policy-text {
-     display: inline-flex;
     color: var(--IRIS, #4D5AE5);
     text-decoration-line: underline;
     margin-left: 4px;
