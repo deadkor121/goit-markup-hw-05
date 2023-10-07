@@ -828,6 +828,7 @@ fill: #FFFFFF;
 }
 
 .policy-text {
+     display: inline-flex;
     color: var(--IRIS, #4D5AE5);
     text-decoration-line: underline;
     margin-left: 4px;
