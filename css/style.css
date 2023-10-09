@@ -683,8 +683,7 @@ fill: #FFFFFF;
 }
 
 .input-wrap {
-    display: flex;
-    flex-direction: column;
+  
     margin-bottom: 8px;
 }
 
@@ -721,9 +720,9 @@ fill: #FFFFFF;
 }
 
 .input-and-icon {
-    display: flex;
+  
     position: relative;
-    align-items: center;
+
 }
 
 .input-icon {
@@ -740,13 +739,14 @@ fill: #FFFFFF;
 }
 
 .textarea-field {
+    display: block;
     width: 100%;
     height: 120px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    flex-shrink: 0;
+  
     border-radius: 4px;
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     background-color: transparent;
